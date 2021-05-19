@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none; 
+    text-transform: none;
+    color: inherit; 
+}
+
+/* INICIO  NAVERGAÇÃO*/
+
+.header {
+    /* background-color: rgba(138, 13, 13, 0.856); */
+    color: rgb(0, 0, 0);
+    height: 50px;
+}
+
+#caixa {
+    /* background-color: rgb(110, 158, 22); */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 85%;
+}
+
+nav  li {
+    /* background-color: burlywood; */
+    margin: 10px;
+    display: inline;
+    padding: 15px 4px 15px 4px;
+    font-family: arial;
+    margin-top:5px;   
+}
+
+nav ul {
+    margin: 0;
+}
+
+#nav1 {
+    /* background-color: rgb(82, 27, 27); */
+    margin-top: 0;
+    padding-top:10px ;
+    font-family: Livvic;
+}
+
+#nav1 a:hover {
+    background-color:black;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px 8px 8px 8px ;
+}
+
+#nav1 img {
+    margin-right: 10px;
+    /* background-color: blueviolet; */
+}
+
+#navleft {
+    background-color: rgb(255, 255, 255);
+}
+
+#nav2 {
+    /* background-color: rgb(184, 57, 57); */
+    margin: 0 0 0 10px;
+    padding-top:5px ;
+    font-family: Arial;
+}
+
+#nav2 ul img {
+    margin-right: 10px; 
+    
+}
+
+#rsocial {
+    overflow: hidden;
+
+}
+
+#rsocial:hover {
+   border: 3px solid white;
+    border-radius: 25px;
+    -webkit-transform: scale(0.1);
+    transform: scale(1.0);
+   
+}
+
+/* FIM NAVERGAÇÃO*/
+
+/* INICIO APRESENTAÇÃO */
+
+.apresentacao {
+    /* background-color: aqua; */
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+}
+
+#logomesa {
+    padding-left: 10%;
+}
+
+#btcaixas  {
+    /* background-color: aquamarine; */
+    display: inline-block;
+    margin: 0 0 0 15%;    
+}
+
+#cx1 {
+    overflow: hidden;
+    background-image: url(./imagens/caixabutton.svg);
+    background-size: cover;
+    height: 105px;
+    width:210px;   
+}
+
+#cx1 p {
+    /* background-color:aquamarine ; */
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 14px;
+}
+#btcaixas p {
+    padding-top: 10px;
+    text-align: center;
+    font-family: arial;
+}
+
+#cx1 #btcaixa {
+    padding: 10px;
+}
+
+#cx2 {
+    overflow: hidden;
+    background-image: url(./imagens/caixabutton.svg);
+    background-size: cover;
+    height: 105px;
+    width:210px;
+}
+
+#cx2 p {
+    /* background-color:aquamarine ; */
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 25px;
+}
+
+#cx2 #btcaixa {
+    padding: 17px;    
+}
+
+#cx3 {
+    overflow: hidden;
+    background-image: url(./imagens/caixabutton.svg);
+    background-size: cover;
+    height: 105px;
+    width:210px;
+}
+
+#cx3 p {
+    /* background-color:aquamarine ; */
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 11px;
+}
+
+#cx3 #btcaixa {
+    padding: 13px 0px 10px 6px ;
+}
+
+#btcaixas div{
+    text-decoration: none;
+    margin-bottom: 22%;
+}
+
+#btcaixa {
+    background-color: rgba(0, 0, 255, 0);
+    margin: 0 auto;
+    width: 58%;   
+}
+
+#btcaixa button{
+    cursor: pointer;
+background-color: #00000000; 
+  border: none;
+  color: white;
+   padding: 8px 30px; 
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1px;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+#btcaixa button:hover {
+   /* border: 8px solid  rgb(255, 255, 255); */
+    
+    -webkit-transform: scale(0.1);
+    transform: scale(1.0);
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    border: none;  
+}
+
+/* FIM APRESENTAÇÃO */
+
+/* INICIO METODOS */
+
+.metodos {
+    /* background-color: cadetblue; */
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#titulo-metodos {
+    /* background-color: chartreuse; */
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+#titulo-metodos p{
+    font-family: arial;
+    font-weight: 700;
+    margin: 0 0 0 60px;
+    padding: 30px 20px ;
+    /* background-color: rgb(255, 115, 0); */
+}
+
+#cx-metodos {
+    /* background-color: rgb(237, 127, 100); */
+    display: flex;
+    margin: 0 auto;
+    width: 87%;
+}
+
+#cx-m-1 {
+    /* background-color: crimson; */
+    display: block;
+    width: 0 auto;
+    width: 20%
+}
+
+#cx-m-2 {
+    /* background-color: rgb(50, 20, 220); */
+    display: block;
+    width: 0 auto;
+    width: 20%;
+    margin-left: 70px;
+}
+
+#cx-m-3 {
+    /* background-color: rgb(220, 150, 20); */
+    display: block;
+    width: 0 auto;
+    width: 20%;
+    margin-left: 70px;
+}
+
+#cx-m-4 {
+    margin: 20px 0 20px 15%;
+}
+
+#cx-metodos button {
+    background-color: #ffffff; /* Green */
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+#cx-metodos button:hover {
+
+    -webkit-transform: scale(0.1);
+     transform: scale(1.0);
+     border: 2px solid rgb(0, 0, 0);
+     color: black;  
+ }
+
+ /* fim metodos */
+
+ /* inicio materiais  */
+
+ .materiais {
+     background-color: crimson;
+ }
+
+#titulo-materiais {
+    background-color: cyan;
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: arial;
+}
+
+#cx-texto {
+    background-color: darkcyan;
+    font-size: 20px;
+}
+
+#list-materiais {
+    background-color: darkgoldenrod;
+}
+
+#box-img {
+    background-color: darkorchid;
+}
+
