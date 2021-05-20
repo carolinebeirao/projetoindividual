@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: #454545;
 }
 
 a {
@@ -13,13 +14,13 @@ a {
 /* INICIO  NAVERGAÇÃO*/
 
 .header {
-    /* background-color: rgba(138, 13, 13, 0.856); */
-    color: rgb(0, 0, 0);
+    background-color: #454545;
+    color: rgb(255, 255, 255);
     height: 50px;
 }
 
 #caixa {
-    /* background-color: rgb(110, 158, 22); */
+    background-color: #454545;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -28,7 +29,7 @@ a {
 }
 
 nav  li {
-    /* background-color: burlywood; */
+    /* background-color: #be0000; */
     margin: 10px;
     display: inline;
     padding: 15px 4px 15px 4px;
@@ -48,8 +49,8 @@ nav ul {
 }
 
 #nav1 a:hover {
-    background-color:black;
-    color: #ffffff;
+    background-color: #E9E245;
+    color: #000000;
     border-radius: 20px;
     padding: 8px 8px 8px 8px ;
 }
@@ -60,7 +61,7 @@ nav ul {
 }
 
 #navleft {
-    background-color: rgb(255, 255, 255);
+    background-color: #454545;
 }
 
 #nav2 {
@@ -81,7 +82,7 @@ nav ul {
 }
 
 #rsocial:hover {
-   border: 3px solid white;
+   border: 3px solid #E9E245;
     border-radius: 25px;
     -webkit-transform: scale(0.1);
     transform: scale(1.0);
@@ -93,11 +94,14 @@ nav ul {
 /* INICIO APRESENTAÇÃO */
 
 .apresentacao {
-    /* background-color: aqua; */
+    background-color: #454545;
     padding-top: 40px;
+    padding-bottom: 40px;
     margin: 0 auto;
     width: 90%;
     display: flex;
+    border-bottom: 50px solid #ffffff;
+    margin-bottom: -20px;
 }
 
 #logomesa {
@@ -105,76 +109,55 @@ nav ul {
 }
 
 #btcaixas  {
-    /* background-color: aquamarine; */
+    position: absolute;
+    background-color: #ffffff;
     display: inline-block;
-    margin: 0 0 0 15%;    
+    width: 40%;
+    height: 0px;
+    margin: 8% 0 0 50%;  
+    font-weight: 400;  
 }
 
 #cx1 {
-    overflow: hidden;
-    background-image: url(./imagens/caixabutton.svg);
-    background-size: cover;
-    height: 105px;
-    width:210px;   
+    /* background-color:rgb(18, 129, 92) ; */
+    height: 60px;
+    width:80%;  
+    
 }
 
 #cx1 p {
     /* background-color:aquamarine ; */
     margin: 0 auto;
-    width: 60%;
-    margin-top: 14px;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 #btcaixas p {
-    padding-top: 10px;
-    text-align: center;
+    text-align: left;
     font-family: arial;
 }
 
-#cx1 #btcaixa {
-    padding: 10px;
-}
-
 #cx2 {
-    overflow: hidden;
-    background-image: url(./imagens/caixabutton.svg);
-    background-size: cover;
-    height: 105px;
-    width:210px;
+    /* background-color:aquamarine ; */
+    margin-top: 20px;
+    width:80%; 
 }
 
 #cx2 p {
     /* background-color:aquamarine ; */
     margin: 0 auto;
-    width: 60%;
-    margin-top: 25px;
-}
-
-#cx2 #btcaixa {
-    padding: 17px;    
-}
-
-#cx3 {
-    overflow: hidden;
-    background-image: url(./imagens/caixabutton.svg);
-    background-size: cover;
-    height: 105px;
-    width:210px;
-}
-
-#cx3 p {
-    /* background-color:aquamarine ; */
-    margin: 0 auto;
-    width: 60%;
-    margin-top: 11px;
-}
-
-#cx3 #btcaixa {
-    padding: 13px 0px 10px 6px ;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 #btcaixas div{
     text-decoration: none;
-    margin-bottom: 22%;
+    margin-bottom: 2%;
 }
 
 #btcaixa {
@@ -183,29 +166,6 @@ nav ul {
     width: 58%;   
 }
 
-#btcaixa button{
-    cursor: pointer;
-background-color: #00000000; 
-  border: none;
-  color: white;
-   padding: 8px 30px; 
-  text-align: center;
-  text-decoration: none;
-  margin-top: 1px;
-  font-size: 15px;
-  overflow: hidden;
-}
-
-#btcaixa button:hover {
-   /* border: 8px solid  rgb(255, 255, 255); */
-    
-    -webkit-transform: scale(0.1);
-    transform: scale(1.0);
-    background-color: white;
-    border-radius: 25px;
-    color: black;
-    border: none;  
-}
 
 /* FIM APRESENTAÇÃO */
 
