@@ -201,7 +201,7 @@ nav ul {
 }
 
 #menu-left {
-    /* background-color: hotpink; */
+    /* background-color:aliceblue; */
     height: 100%;
     width: 80%;
 }
@@ -228,6 +228,7 @@ nav ul {
     /* background-color: yellow; */
     width: 50%;
     padding: 7px 0 5px 0px;
+    margin-left: 30px;
 }
 
 #busca-usuario input {
@@ -243,7 +244,7 @@ nav ul {
     border: 0px;
     width: 55px;
     margin-left: 10px;
-    background-color: yellow;
+    background-color: #FFF386
 }
 
 #busca-usuario button:hover {
@@ -318,9 +319,10 @@ nav ul {
 #tit-meio h3{
     margin: 0 ;
     font-family: Arial;
-    color: rgb(231, 200, 25);;
-    margin: 0;
+    color: #FFF386;
+    margin: 30px 0 10px 0px;
     font-size: 16px;
+    text-align: center;
 }
 
 #cx-cronograma {
@@ -379,7 +381,7 @@ nav ul {
 }
 
 #cx-conteudo {
-    background-color:rgb(255, 255, 255) ;
+    background-color:rgba(255, 252, 215, 0.815) ;
     width: 100%;
     height: 90%;
     border-radius: 8px;
@@ -395,12 +397,13 @@ nav ul {
     text-align: center;
     color: white;
     font-family: arial;
+    margin: 50px 0 0 0;
 }
 
 
 
 #dois {
-    background-color: rgb(50, 174, 205);
+    background-color: rgba(0, 0, 0, 0);
     height: 50px;
     margin: 10px;
 }
@@ -420,7 +423,7 @@ nav ul {
 #baixo {
     height: 50%;
     display: flex;  
-    margin: 0 20px 0 20px;
+    margin: 30px 20px 10px 20px;
     /* background-color: yellow; */
 }
 
@@ -436,6 +439,8 @@ nav ul {
     font-family: arial;
     margin: 5px;
     font-size: 16px;
+    text-align: center;
+    color: #FFF386
 }
 
 #cx-dash {
@@ -449,16 +454,16 @@ nav ul {
     /* background-color: rgb(67, 93, 116); */
     height: 100%;
     width: 30%;
-    margin: 10px;
-    color: rgb(231, 200, 25);
-    
+    margin: 10px;  
 }
 
 #prox h3 {
     font-family: arial;
     margin: 5px;
     font-size: 16px;
-}
+    text-align: center;
+    color: #FFF386
+;}
 
 #cx-prox {
     background-color:rgba(255, 255, 255, 0.158) ;
@@ -480,6 +485,8 @@ nav ul {
     font-family: arial;
     margin: 5px;
     font-size: 16px;
+    text-align: center;
+    color: #FFF386
 }
 
 #cx-atra {
