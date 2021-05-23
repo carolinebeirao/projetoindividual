@@ -3,6 +3,7 @@ body {
     padding: 0;
     border: 0;
     background-color: #454545;
+    font-family: arial;
 }
 
 a {
@@ -49,8 +50,8 @@ nav ul {
 }
 
 #nav1 a:hover {
-    background-color: #E9E245;
-    color: #000000;
+    background-color: #0c0c0c6e;
+    color: #ffffff;
     border-radius: 20px;
     padding: 8px 8px 8px 8px ;
 }
@@ -82,10 +83,10 @@ nav ul {
 }
 
 #rsocial:hover {
-   border: 3px solid #E9E245;
+   border: 1px solid #E9E245;
     border-radius: 25px;
-    -webkit-transform: scale(0.1);
-    transform: scale(1.0);
+    -webkit-transform: scale(0.2);
+    transform: scale(0.9);
    
 }
 
@@ -100,8 +101,8 @@ nav ul {
     margin: 0 auto;
     width: 90%;
     display: flex;
-    border-bottom: 50px solid #ffffff;
-    margin-bottom: -20px;
+    border-bottom: 12px solid #ffffff;
+    margin-bottom: 0px;
 }
 
 #logomesa {
@@ -129,10 +130,16 @@ nav ul {
     /* background-color:aquamarine ; */
     margin: 0 auto;
     width: 100%;
-    margin-bottom: 50px;
-    font-size: 24px;
-    color: #ffffff;
-    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-family: arial;
+    font-size:25px;
+    color: #ffffffec;;
+    line-height: 30px;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    text-shadow: 2px 1px 2px rgba(185, 172, 127, 0.822) ;
 }
 #btcaixas p {
     text-align: left;
@@ -141,7 +148,7 @@ nav ul {
 
 #cx2 {
     /* background-color:aquamarine ; */
-    margin-top: 20px;
+    margin-top: 50px;
     width:80%; 
 }
 
@@ -149,10 +156,14 @@ nav ul {
     /* background-color:aquamarine ; */
     margin: 0 auto;
     width: 100%;
-    margin-top: 50px;
-    font-size: 24px;
-    color: #ffffff;
-    text-transform: uppercase;
+    margin-top: -30px;
+    font-size: 25px;
+    color: #ffffffec;
+    line-height: 30px;
+    /* font-weight: 600; */
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    text-shadow: 2px 1px 2px rgba(185, 172, 127, 0.822) ;
 }
 
 #btcaixas div{
@@ -185,7 +196,7 @@ nav ul {
 
 #mkt-bloco {
     /* background-color: aqua; */
-    height: 20%;
+    height: 30%;
     margin: 20px;
 }
 
@@ -195,7 +206,8 @@ nav ul {
     font-family: arial;
     margin-top: 30px;
     margin-bottom: 10px;
-    color: #FFF59C;
+    color: #fff347;
+    text-transform: uppercase;
 }
 
 #cont-makt {
@@ -243,4 +255,32 @@ nav ul {
 #img-makt-3 img {
     margin: 0 0 0 60px;
     width: 100px;
+}
+
+#final {
+    background-color: yellow;
+    height: 40px;
+}
+
+#rodape {
+    background-color: #454545;
+    height: 200px;
+}
+
+#navrodape {
+    /* background-color: aqua; */
+    margin: auto;
+    width: 13%;
+}
+
+#navrodape img {
+    margin: 10px;
+}
+
+#copy {
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    color: white;
 }
